@@ -55,69 +55,7 @@
         <li>สร้างสรรค์ผลงานศิลปะเพื่อจัดแสดงและสร้างแรงบันดาลใจให้ผู้อื่น</li>
     </ul>
 </section>
-<<!DOCTYPE html>
-<html lang="th">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>ใบประกาศนียบัตร</title>
-
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      min-height: 100vh;
-      background: #111;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    #certificate {
-      max-width: 95%;
-      max-height: 95vh;
-      object-fit: contain;
-      cursor: pointer;
-      box-shadow: 0 0 20px rgba(255,255,255,0.3);
-    }
-
-    /* ตอนเปิดเต็มจอ */
-    #certificate:fullscreen {
-      width: 100vw;
-      height: 100vh;
-      object-fit: contain;
-      background: #000;
-    }
-  </style>
-</head>
-
-<body>
-
-  <img
-    id="certificate"
-    src="ใส่ลิงก์รูปของคุณตรงนี้"
-    alt="ใบประกาศนียบัตร"
-    onclick="openFullscreen()"
-  >
-
-  <script>
-    function openFullscreen() {
-      const image = document.getElementById("certificate");
-
-      if (!document.fullscreenElement) {
-        image.requestFullscreen();
-      } else {
-        document.exitFullscreen();
-      }
-    }
-  </script>
-
-</body>
-</html>
 <!-- ส่วนท้ายของเว็บไซต์ -->
 <footer>
     <!-- ส่วนติดต่อและลิขสิทธิ์ -->
